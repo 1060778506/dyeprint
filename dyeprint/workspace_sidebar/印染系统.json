@@ -14,10 +14,22 @@
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "\u5370\u67d3\u7cfb\u7edf",
+   "link_to": "\u5370\u67d3\u7cfb\u7edf",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
   }
  ],
- "modified": "2026-06-04 18:53:41.215059",
+ "modified": "2026-06-04 19:13:14.025653",
  "modified_by": "Administrator",
+ "module": "Dyeprint",
  "name": "\u5370\u67d3\u7cfb\u7edf",
  "owner": "Administrator",
  "standard": 1,
