@@ -6,18 +6,200 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_0pzr"
+  "\u8ba2\u5355\u65e5\u671f",
+  "\u5ba2\u6237\u540d\u79f0",
+  "\u6210\u54c1\u5355\u4f4d",
+  "column_break_tiqt",
+  "\u4ea4\u8d27\u65e5\u671f",
+  "\u8ba2\u5355\u7c7b\u578b",
+  "\u6210\u54c1\u89c4\u683c",
+  "column_break_msux",
+  "\u7f38\u53f7",
+  "\u52a0\u5de5\u7c7b\u578b",
+  "\u8272\u53f7",
+  "column_break_xdod",
+  "\u73b0\u5de5\u5e8f\u540d\u79f0",
+  "\u80da\u5e03\u5e03\u53f7",
+  "\u989c\u8272",
+  "column_break_dylk",
+  "\u5355\u636e\u72b6\u6001",
+  "\u6210\u54c1\u540d\u79f0",
+  "\u7248\u6b21",
+  "column_break_vmkd",
+  "\u6210\u54c1\u95e8\u5e45",
+  "\u6570\u91cf",
+  "column_break_tusd",
+  "\u5ba2\u6237\u7f16\u53f7",
+  "\u6210\u54c1\u514b\u91cd",
+  "\u5355\u4f4d",
+  "section_break_qcjd",
+  "\u8ba2\u5355\u5907\u6ce8",
+  "\u6307\u4ee4\u5907\u6ce8",
+  "column_break_wcpg",
+  "column_break_dbym",
+  "column_break_ebcj",
+  "column_break_kmfi"
  ],
  "fields": [
   {
-   "fieldname": "section_break_0pzr",
+   "fieldname": "\u8ba2\u5355\u65e5\u671f",
+   "fieldtype": "Datetime",
+   "label": "\u8ba2\u5355\u65e5\u671f"
+  },
+  {
+   "fieldname": "\u4ea4\u8d27\u65e5\u671f",
+   "fieldtype": "Datetime",
+   "label": "\u4ea4\u8d27\u65e5\u671f"
+  },
+  {
+   "fieldname": "\u7f38\u53f7",
+   "fieldtype": "Data",
+   "label": "\u7f38\u53f7"
+  },
+  {
+   "fieldname": "\u73b0\u5de5\u5e8f\u540d\u79f0",
+   "fieldtype": "Data",
+   "label": "\u73b0\u5de5\u5e8f\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u5355\u636e\u72b6\u6001",
+   "fieldtype": "Data",
+   "label": "\u5355\u636e\u72b6\u6001"
+  },
+  {
+   "fieldname": "\u5ba2\u6237\u7f16\u53f7",
+   "fieldtype": "Data",
+   "label": "\u5ba2\u6237\u7f16\u53f7"
+  },
+  {
+   "fieldname": "\u5ba2\u6237\u540d\u79f0",
+   "fieldtype": "Data",
+   "label": "\u5ba2\u6237\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u8ba2\u5355\u7c7b\u578b",
+   "fieldtype": "Data",
+   "label": "\u8ba2\u5355\u7c7b\u578b"
+  },
+  {
+   "fieldname": "\u52a0\u5de5\u7c7b\u578b",
+   "fieldtype": "Data",
+   "label": "\u52a0\u5de5\u7c7b\u578b"
+  },
+  {
+   "fieldname": "\u80da\u5e03\u5e03\u53f7",
+   "fieldtype": "Data",
+   "label": "\u80da\u5e03\u5e03\u53f7"
+  },
+  {
+   "fieldname": "\u6210\u54c1\u540d\u79f0",
+   "fieldtype": "Data",
+   "label": "\u6210\u54c1\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u6210\u54c1\u95e8\u5e45",
+   "fieldtype": "Data",
+   "label": "\u6210\u54c1\u95e8\u5e45"
+  },
+  {
+   "fieldname": "\u6210\u54c1\u514b\u91cd",
+   "fieldtype": "Data",
+   "label": "\u6210\u54c1\u514b\u91cd"
+  },
+  {
+   "fieldname": "\u6210\u54c1\u5355\u4f4d",
+   "fieldtype": "Data",
+   "label": "\u6210\u54c1\u5355\u4f4d"
+  },
+  {
+   "fieldname": "\u6210\u54c1\u89c4\u683c",
+   "fieldtype": "Data",
+   "label": "\u6210\u54c1\u89c4\u683c"
+  },
+  {
+   "fieldname": "\u8272\u53f7",
+   "fieldtype": "Data",
+   "label": "\u8272\u53f7"
+  },
+  {
+   "fieldname": "\u989c\u8272",
+   "fieldtype": "Data",
+   "label": "\u989c\u8272"
+  },
+  {
+   "fieldname": "\u7248\u6b21",
+   "fieldtype": "Data",
+   "label": "\u7248\u6b21"
+  },
+  {
+   "fieldname": "\u6570\u91cf",
+   "fieldtype": "Data",
+   "label": "\u6570\u91cf"
+  },
+  {
+   "fieldname": "\u5355\u4f4d",
+   "fieldtype": "Data",
+   "label": "\u5355\u4f4d"
+  },
+  {
+   "fieldname": "\u8ba2\u5355\u5907\u6ce8",
+   "fieldtype": "Small Text",
+   "label": "\u8ba2\u5355\u5907\u6ce8"
+  },
+  {
+   "fieldname": "\u6307\u4ee4\u5907\u6ce8",
+   "fieldtype": "Small Text",
+   "label": "\u6307\u4ee4\u5907\u6ce8"
+  },
+  {
+   "fieldname": "column_break_tiqt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_msux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xdod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dylk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vmkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tusd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qcjd",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wcpg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dbym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ebcj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kmfi",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-04 18:52:20.447305",
+ "modified": "2026-06-04 20:05:56.773955",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Production Transfer Card",

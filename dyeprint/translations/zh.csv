@@ -33,6 +33,10 @@ Amazon internal form binding table title,亚马逊内部表单绑定表格标题
 Postal code and world map coordinate correspondence,邮政编码与世界地图坐标对应关系
 Production Transfer Card,生产流转卡
 Embroidered fabric inventory form,胚布入库单
+"Processing Requirements - Sub-table","加工要求-子表"
+"Packaging Requirements - Sub-table","包装要求-子表"
+"Yarn Fabric Name - Sub-table","胚布名称-子表"
+"Production Process - Sub-table","生产工序-子表"
 insights,数据洞察
 Builder,可视化网页
 Frappe HR,人力资源
