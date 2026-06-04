@@ -2,6 +2,7 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
+ "autoname": "SCLZK-.#####",
  "creation": "2026-06-04 18:52:20.447305",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -48,11 +49,13 @@
   {
    "fieldname": "\u8ba2\u5355\u65e5\u671f",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
    "label": "\u8ba2\u5355\u65e5\u671f"
   },
   {
    "fieldname": "\u4ea4\u8d27\u65e5\u671f",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
    "label": "\u4ea4\u8d27\u65e5\u671f"
   },
   {
@@ -78,6 +81,7 @@
   {
    "fieldname": "\u5ba2\u6237\u540d\u79f0",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "\u5ba2\u6237\u540d\u79f0"
   },
   {
@@ -227,10 +231,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-04 20:33:54.798708",
+ "modified": "2026-06-04 20:48:14.507691",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Production Transfer Card",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
