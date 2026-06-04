@@ -17,6 +17,7 @@
   "\u7f38\u53f7",
   "\u52a0\u5de5\u7c7b\u578b",
   "\u8272\u53f7",
+  "section_break_ubcm",
   "column_break_xdod",
   "\u73b0\u5de5\u5e8f\u540d\u79f0",
   "\u80da\u5e03\u5e03\u53f7",
@@ -37,8 +38,11 @@
   "\u6307\u4ee4\u5907\u6ce8",
   "column_break_wcpg",
   "column_break_dbym",
-  "column_break_ebcj",
-  "column_break_kmfi"
+  "section_break_iwoz",
+  "\u80da\u5e03\u540d\u79f0",
+  "\u751f\u4ea7\u5de5\u5e8f",
+  "\u52a0\u5de5\u8981\u6c42",
+  "\u5305\u88c5\u8981\u6c42"
  ],
  "fields": [
   {
@@ -188,18 +192,42 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_ebcj",
-   "fieldtype": "Column Break"
+   "fieldname": "\u52a0\u5de5\u8981\u6c42",
+   "fieldtype": "Table",
+   "label": "\u52a0\u5de5\u8981\u6c42",
+   "options": "Processing Requirements - Sub-table"
   },
   {
-   "fieldname": "column_break_kmfi",
-   "fieldtype": "Column Break"
+   "fieldname": "\u5305\u88c5\u8981\u6c42",
+   "fieldtype": "Table",
+   "label": "\u5305\u88c5\u8981\u6c42",
+   "options": "Packaging Requirements - Sub-table"
+  },
+  {
+   "fieldname": "\u80da\u5e03\u540d\u79f0",
+   "fieldtype": "Table",
+   "label": "\u80da\u5e03\u540d\u79f0",
+   "options": "Yarn Fabric Name - Sub-table"
+  },
+  {
+   "fieldname": "\u751f\u4ea7\u5de5\u5e8f",
+   "fieldtype": "Table",
+   "label": "\u751f\u4ea7\u5de5\u5e8f",
+   "options": "Production Process - Sub-table"
+  },
+  {
+   "fieldname": "section_break_ubcm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_iwoz",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-04 20:05:56.773955",
+ "modified": "2026-06-04 20:33:54.798708",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Production Transfer Card",

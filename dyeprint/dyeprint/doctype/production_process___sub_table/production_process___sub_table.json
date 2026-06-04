@@ -7,19 +7,35 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "section_break_4nlq"
+  "\u5206\u5de5\u5e8f\u4ee3\u7801",
+  "\u5206\u5de5\u5e8f\u540d\u79f0",
+  "\u5de5\u5e8f\u987a\u5e8f\u53f7"
  ],
  "fields": [
   {
-   "fieldname": "section_break_4nlq",
-   "fieldtype": "Section Break"
+   "fieldname": "\u5206\u5de5\u5e8f\u4ee3\u7801",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u5206\u5de5\u5e8f\u4ee3\u7801"
+  },
+  {
+   "fieldname": "\u5206\u5de5\u5e8f\u540d\u79f0",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u5206\u5de5\u5e8f\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u5de5\u5e8f\u987a\u5e8f\u53f7",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u5de5\u5e8f\u987a\u5e8f\u53f7"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-06-04 20:10:22.177200",
+ "modified": "2026-06-04 20:35:13.916309",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Production Process - Sub-table",

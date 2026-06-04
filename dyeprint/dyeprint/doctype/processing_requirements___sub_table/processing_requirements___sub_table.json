@@ -7,19 +7,28 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "section_break_5axw"
+  "\u9879\u76ee\u540d\u79f0",
+  "\u9879\u76ee\u51e0\u7ea7"
  ],
  "fields": [
   {
-   "fieldname": "section_break_5axw",
-   "fieldtype": "Section Break"
+   "fieldname": "\u9879\u76ee\u540d\u79f0",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u9879\u76ee\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u9879\u76ee\u51e0\u7ea7",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u9879\u76ee\u51e0\u7ea7"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-06-04 20:08:44.665740",
+ "modified": "2026-06-04 20:34:35.033894",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Processing Requirements - Sub-table",

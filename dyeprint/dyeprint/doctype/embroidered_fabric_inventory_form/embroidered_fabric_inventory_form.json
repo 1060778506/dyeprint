@@ -6,18 +6,61 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_eeni"
+  "\u5355\u636e\u7f16\u53f7",
+  "\u5355\u636e\u65e5\u671f",
+  "\u5355\u636e\u72b6\u6001",
+  "\u5ba2\u6237\u4ee3\u7801",
+  "\u5ba2\u6237\u540d\u79f0",
+  "\u4ed3\u5e93\u4ee3\u7801",
+  "\u4ed3\u5e93\u540d\u79f0",
+  "\u5907\u6ce8"
  ],
  "fields": [
   {
-   "fieldname": "section_break_eeni",
-   "fieldtype": "Section Break"
+   "fieldname": "\u5355\u636e\u7f16\u53f7",
+   "fieldtype": "Autocomplete",
+   "label": "\u5355\u636e\u7f16\u53f7"
+  },
+  {
+   "fieldname": "\u5355\u636e\u65e5\u671f",
+   "fieldtype": "Autocomplete",
+   "label": "\u5355\u636e\u65e5\u671f"
+  },
+  {
+   "fieldname": "\u5355\u636e\u72b6\u6001",
+   "fieldtype": "Autocomplete",
+   "label": "\u5355\u636e\u72b6\u6001"
+  },
+  {
+   "fieldname": "\u5ba2\u6237\u4ee3\u7801",
+   "fieldtype": "Autocomplete",
+   "label": "\u5ba2\u6237\u4ee3\u7801"
+  },
+  {
+   "fieldname": "\u5ba2\u6237\u540d\u79f0",
+   "fieldtype": "Autocomplete",
+   "label": "\u5ba2\u6237\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u4ed3\u5e93\u4ee3\u7801",
+   "fieldtype": "Autocomplete",
+   "label": "\u4ed3\u5e93\u4ee3\u7801"
+  },
+  {
+   "fieldname": "\u4ed3\u5e93\u540d\u79f0",
+   "fieldtype": "Autocomplete",
+   "label": "\u4ed3\u5e93\u540d\u79f0"
+  },
+  {
+   "fieldname": "\u5907\u6ce8",
+   "fieldtype": "Autocomplete",
+   "label": "\u5907\u6ce8"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-04 19:18:47.502436",
+ "modified": "2026-06-04 20:17:06.292727",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "Embroidered fabric inventory form",
