@@ -5,6 +5,25 @@ app_description = "ERP system for textile dyeing and printing"
 app_email = "1060778506@qq.com"
 app_license = "mit"
 
+
+
+
+
+
+
+
+fixtures = [
+    {
+        "dt": "Workspace",
+        "filters": [
+            ["name", "in", ["DyePrint"]]
+        ]
+    }
+]
+
+
+
+
 # Apps
 # ------------------
 
