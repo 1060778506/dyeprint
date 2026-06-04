@@ -11,13 +11,45 @@ app_license = "mit"
 
 
 
-
 fixtures = [
     {
         "dt": "Workspace",
         "filters": [
-            ["name", "in", ["DyePrint"]]
+            ["name", "=", "印染系统"]
         ]
+    },
+    {
+        "dt": "Workspace Link",
+        "filters": [
+            ["parent", "=", "印染系统"]
+        ]
+    },
+    {
+        "dt": "Workspace Shortcut",
+        "filters": [
+            ["parent", "=", "印染系统"]
+        ]
+    },
+    {
+        "dt": "Workspace Number Card",
+        "filters": [
+            ["parent", "=", "印染系统"]
+        ]
+    },
+    {
+        "dt": "Workspace Chart",
+        "filters": [
+            ["parent", "=", "印染系统"]
+        ]
+    },
+    {
+        "dt": "Workspace Custom Block",
+        "filters": [
+            ["parent", "=", "印染系统"]
+        ]
+    },
+    {
+        "dt": "Workspace Sidebar"
     }
 ]
 
