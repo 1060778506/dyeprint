@@ -3,14 +3,17 @@
  "creation": "2026-06-04 18:53:41.215059",
  "docstatus": 0,
  "doctype": "Workspace Sidebar",
+ "header_icon": "pipette",
  "idx": 0,
  "items": [
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "assets",
    "indent": 0,
    "keep_closed": 0,
-   "link_to": "Production Transfer Card",
+   "label": "\u80da\u5e03\u5165\u5e93\u5355",
+   "link_to": "Embroidered fabric inventory form",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
@@ -18,16 +21,17 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "folder-normal",
    "indent": 0,
    "keep_closed": 0,
-   "label": "\u5370\u67d3\u7cfb\u7edf",
-   "link_to": "\u5370\u67d3\u7cfb\u7edf",
-   "link_type": "Workspace",
+   "label": "\u751f\u4ea7\u6d41\u8f6c\u5361",
+   "link_to": "Production Transfer Card",
+   "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
   }
  ],
- "modified": "2026-06-04 19:13:14.025653",
+ "modified": "2026-06-04 19:26:53.826917",
  "modified_by": "Administrator",
  "module": "Dyeprint",
  "name": "\u5370\u67d3\u7cfb\u7edf",
